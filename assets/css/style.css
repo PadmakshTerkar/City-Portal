@@ -1,0 +1,263 @@
+*{
+          box-sizing: border-box;
+          padding: 0px;
+          margin: 0px;
+}
+.text_right{
+          text-align: right;
+
+}
+.text_left{
+          text-align: left;
+
+}
+.float_right{
+          float: right;
+}
+.float_left{
+          float: left;
+}
+.inline_block{
+          display: inline-block;
+}
+.text_center{
+          text-align: center;
+}
+.fontsize18px{
+    margin-top:15px;
+	font-size:18px;
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+
+
+}
+.fontsize14px{
+    margin-top:15px;
+	font-size:14px;
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom:74px;
+
+}
+.container{
+          width:1146px;
+          margin: 0 auto;
+}
+.row{
+	display: inline-block;
+	width: 100%;
+}
+
+/*NavigationBar section */
+.LogoImg{
+          margin: 23px 156px 23px 0px;
+}
+.navBarElement > ul >li{
+          display:inline-block;
+          text-decoration: none;
+          list-style: none;
+          margin-top: 45px;
+          margin-bottom: 15px;
+}
+.navBarElement > ul >li>a{
+          text-decoration: none;
+          font-size: 18px;
+          font-family: 'Open Sans', sans-serif;
+          text-transform: uppercase;
+          cursor: pointer;
+          padding: 5px;
+          margin:0 16px;
+          color: #006a4d;
+}
+.navBarElement>ul>li>a:hover,
+.navBarElement>ul>li>a:hover
+{
+          color: #69be28;
+		  border-bottom: 10px solid #69be28;
+}
+.btn{
+          padding: 17px;
+          width: 114px;
+          background-color: #69be28;
+          color:#fff;
+          margin-top: 32px;
+          border: 1px solid;
+          font-family: 'Open Sans', sans-serif;
+          text-transform: uppercase;
+}
+/*hero image section*/
+.heroImage{
+	background-image: url("../images/heroImg2.png");
+	height: 400px;
+	position: relative;
+}
+
+.clrimage{
+	background-color:rgba(24,51,72,.5);
+	width: 100%;
+	height: 100%;
+}
+
+.heroImg{
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+	text-align: center;
+}
+
+.heroImg h1,.heroImg h2,.heroImg h3{
+	text-transform: uppercase;
+}
+
+.heroImg h1{
+	font-size: 32px;
+}
+
+.heroImg h2{
+	font-size: 58px;
+	margin-top: 25px;
+	border-bottom: 1px solid #fff;
+	padding-bottom: 25px;
+}
+
+.heroImg h3{
+	margin-top: 25px;
+	font-size: 22px;
+}
+
+/*section aboutEvent */
+
+.about{
+	padding: 100px 0px;
+          height: 100vh;
+}
+
+.Event h1{
+	color: #006a4d;
+	font-size: 36px;
+	text-transform: uppercase;
+	margin-bottom: 22px;
+}
+
+.Event h2{
+	color: #006a4d;
+	font-size: 20px;
+	text-transform: capitalize;
+}
+.Info{
+	float: left;
+	width: 55%;
+}
+
+.Info p{
+	color: #000;
+	font-size: 16px;
+}
+
+.ImgEvent{
+	float: left;
+	width: 28%;
+	margin-left: 3%;
+}
+
+/*section fourth speakers section*/
+.speaker{
+          background-color: #006a4d;
+         
+}
+.speaker>.row1>h3{
+          text-transform: uppercase;
+          font-size: 36px;
+          color: #fff;
+          font-family: 'Open Sans', sans-serif;
+          text-align: center;
+          padding: 106px 0px 30px 0px;
+}
+.speaker>.row1>p{
+          color: #fff;
+          font-family: 'Open Sans', sans-serif;
+          /*line-height: 21px;*/
+          font-size: 16px;
+          padding: 0px 250px  0px 250px;
+          margin-bottom: 58px;
+}
+.img1{
+          margin:0px 40px 0px 40px;
+}
+.img1>p{
+          font-family: 'Open Sans', sans-serif;
+          color: #fff;
+}
+.speaker>.row3>.btn2{
+	color:#ffffff;
+	font-size:18px;
+	padding:14px 20px;
+	background-color:#006a4d;
+	border:2px solid #ffffff;
+	margin-bottom:98px;
+          text-transform: uppercase;
+}
+.speaker>.row3>.btn2:hover,
+.speaker>.row3>.btn2:hover{
+          background-color:#fff;
+          color:#006a4d;
+}
+/* last footer section*/
+.social{
+	padding: 85px 0px;
+	background-color: #3c3c3c;
+	color: #fff;
+}
+
+.year{
+	float: left;
+	color: #fff;
+	padding-top: 50px;
+}
+
+
+.follow,.sociallinks{
+	float: right;
+}
+
+.follow{
+	text-transform: uppercase;
+	margin-right: 30px;
+}
+
+.links li{
+	border:1px solid #fff;
+	width: 40px;
+	height: 40px;
+	margin-bottom: 3px;
+	border-radius: 100%;
+	list-style: none;
+	display: inline-block;
+	margin-top: 10px;
+}
+
+.links li a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.links li a i{
+	padding: 8px;
+	font-size: 25px;
+}
+
+.c{
+	list-style: none;
+	border: 1px solid #fff;
+	border-radius: 100%;
+	height: 20px;
+	width: 15px;
+	padding:0px 0px 3px 3px;
+	float: left;
+}
+
+.y{
+	float: left;
+	margin-left: 5px;
+}
